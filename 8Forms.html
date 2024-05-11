@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+    <style>
+        * {
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>This is tutorial about Forms and Input Tags.</h3>
+    <form action="backend.php">
+        <fieldset>
+            <legend>Personal Info:</legend>
+
+            <div>
+                <label for="name">Name:</label> <input type="text" name="form" id="name"
+                    placeholder="Enter Your Full Name">
+            </div><br>
+
+            <div>
+                Role: <input type="text" name="form" id="Role">
+            </div><br>
+
+            <div>
+                Email: <input type="email" name="form" id="email">
+            </div><br>
+
+            <div>
+                Phone No: <input type="number" name="Phoen">
+            </div><br>
+            <label for="eligibility">Are you eligible to work legally:</label>
+            <input type="checkbox" name="eligibility" id="eligibility">
+
+            <div>
+                Gender: &nbsp; Male:<input type="radio" name="Gender">
+                Female: <input type="radio" name="Gender">
+            </div><br>
+            Enter Date of Birth: <input type="date" name="date" id="">
+            <div>
+
+                Write about yourself: <textarea name="BIO" id="" cols="40" rows="8"></textarea>
+            </div><br>
+
+
+            <div>
+                <label for="country">Preferred Country</label>
+                <select name="country" id="country">
+                    <option value="">USA</option>
+                    <option value="">Germany</option>
+                    <option value="">Australia</option>
+                </select>
+            </div><br>
+
+            <div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </div>
+    </form>
+    </fieldset>
+    <a href="https://facebook.com" target="_blank">Google</a>
+
+</body>
+
+</html>
