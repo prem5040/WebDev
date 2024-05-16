@@ -21,14 +21,19 @@
         }
 
         /* Child Selectors  */
-        div > p {
+        div > p {              /*selects all elements that are children of specified elements*/
             color: blue;
             background-color: brown;
         }
 
         /* Descendant Selector  */
-        div p {
+        div p {               /*selects all elements that are descendent of specified elements*/
             color: blue;
+            background-color: brown;
+        }
+        /* Adjacent Sibling Selector  */
+        div + p {            /*selects elements that is directly after another specific element.*/
+            color: blue;        /*Sibling elements must have same parents and adjacent.*/
             background-color: brown;
         }
 
